@@ -1,0 +1,38 @@
+
+
+constraints:
+1. no duplicate in each row
+2. no duplicate in each column
+3. no duplicate in each box
+
+
+1. return correct or incorrect
+2. return location of error (1s based)
+3. return solution to error
+
+
+
+-------------------
+2d arr T/F method?
+
+
+row, col, and box will be a 2d arr.
+
+row[row num][num] = T/F (doesnt matter location in row)
+col[col num][num] = T/F (doesnt matter location in col)
+box[box num][num] = T/F (doesnt matter location in box)
+
+ex:  if rc[2,1] = 5
+    then row[2][5] = T, col[1,5] = T, box[0][5]= T
+
+c0 c1 c2... etc
+
+r0
+r1
+r2
+... etc
+
+b0 b1 b2
+b3 b4 ...etc
+
+instead of t/f use int to keep track of how many?
